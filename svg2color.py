@@ -170,7 +170,7 @@ class SVG2ColoR:
         icon_path = ':/plugins/svg2color/icon.png'
         self.add_action(
             icon_path,
-            text=self.tr(u''),
+            text=self.tr(u'Convert SVG color ramps'),
             callback=self.run,
             parent=self.iface.mainWindow())
 
